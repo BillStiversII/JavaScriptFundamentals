@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS CREATURE</title>
+</head>
+<body>
+<h1>Bean Flash</h1>
+<div id="wholeBody">
+    <div class="mainBody">
+        <div class="lightingBolt">
+
+        </div>
+        <div class="leftEye">
+            <div id="leftPupil">
+            </div>
+
+        </div>
+         <div class="rightEye">
+             <div id="rightPupil">
+
+        </div>
+        
+        <div class="leftEarBolt">
+
+        </div>
+
+        <div class="rightEarBolt">
+
+        </div>
+        <div class="mouthNose">
+
+        </div>
+    </div>
+</div>
+
+
+<style>
+    #wholeBody {
+        position:absolute;
+        background-color: turquoise;
+        height: 600px;
+        width: 500px;
+        
+    }
+    .mainBody {
+        width: 300px;
+        height: 500px;
+        border: solid 10px black;
+        background-color: crimson;
+        border-radius: 100px;
+        position:relative;
+        left: 20%;
+        top: 25px;
+    }
+    
+    .lightingBolt {
+        width: 150px;
+        height: 150px;
+        border: solid 10px black;
+        background-color: yellow;
+        border-radius: 50px;
+        position: relative;
+        clip-path: polygon(33% 34%, 73% 19%, 47% 37%, 46% 69%, 14% 91%, 35% 57%);
+        top: 40%;
+        left: 25%
+    }
+    .leftEye {
+        width: 30px;
+        height:30px;
+        border: solid 2px black;
+        border-radius: 40px;
+        background-color: wheat;
+        position: relative;
+        top: -20%;
+        left: 25%;
+
+    }
+    #leftPupil {
+        width: 10px;
+        height: 10px;
+        border: white 3px solid;
+        border-radius: 40px;
+        background-color: black;
+        position: relative;
+        top: 25%;
+    }
+    .rightEye {
+        width: 30px;
+        height: 30px;
+        border: solid 2px black;
+        border-radius: 40px;
+        background-color: wheat;
+        position: relative;
+        top: -27%;
+        left: 60%;
+    }
+    #rightPupil {
+        width: 10px;
+        height: 10px;
+        border: white 3px solid;
+        border-radius: 40px;
+        background-color: black;
+        position: relative;
+        top:25%;
+    }
+    .leftEarBolt {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        background-color: yellow;
+        clip-path: polygon(36% 0, 0 100%, 48% 51%);
+        top:-50px;
+        right: -116px;
+    }
+    .rightEarBolt {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        background-color: yellow;
+        clip-path: polygon(58% 0, 100% 100%, 48% 51%);
+        top: -150px;
+        right: 282px;
+    }
+    .mouthNose {
+        height: 50px;
+        width: 50px;
+        border-radius: 200;
+        border-style: solid;
+        border-color: black;
+        background-color: black;
+        position: relative;
+        clip-path: polygon(37% 0, 55% 0, 100% 100%, 0% 100%);clip-path: polygon(37% 0, 55% 0, 100% 100%, 0% 100%);
+        top: -150px;
+        right: 62px;
+
+    }
+
+    
+    </style>
+</body>
+</html>

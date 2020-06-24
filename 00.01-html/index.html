@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>I am a big title</h1>
+    <h2>I am big but a little smaller</h2>
+    <h6>smallest title tag</h6>
+
+    <p>I am what kind of tag?</p>
+    <div>
+        <div>
+            <p>For my personal leisure</p>
+        </div>
+        <div>
+            <p>Pro-bono work</p>
+        </div>
+    </div>
+
+    <!--Two Truths and a Lie
+    CHALLENGE 1: TWO TRUTHS & A LIE
+    Bronze:
+      Make an h1 tag saying 'Two Truths and a Lie'
+      Make 3 h3 tags, each saying a short blurb about that option (example: 'Been to Russia')
+      Make 3 p tags (one for each h3 tag), giving a short sentence elaborating that truth/lie
+      Wrap it all in a div tag
+    Silver:
+      Using CSS:
+      Make the h1 tag LIGHT GREEN and CENTERED
+      Make each h3 tag BLUE
+      Make each p tag RED
+      Wrap it all in a BORDER that is THICK and BLACK
+    Gold:
+      Curve the corners of that BORDER
+      Give it a BACKGROUND COLOR of GREY
+      Wrap each Truth/Lie in separate divs, give them each a BORDER, curve the BORDER, and make each BACKGROUND COLOR LIGHT GREY
+      CENTER everyting in each div
+      Line each Truth/Lie side-by-side
+    -->
+
+    <!--
+        PascalCasing
+        camelCasing
+        snake_casing
+    -->
+    <div id="truthLieSection">
+        <h1 id="truthLieTitle">Two Truths and a Lie</h1>
+        <div class="truthLieContainer">
+            <h3 class="truthOrLie">Married</h3>
+            <p class="description">I married my highschool sweet heart in 1999 at 20 years old and we are still together.</p>
+        </div>
+        <div class="truthLieContainer">
+            <h3 class="truthOrLie">Feet</h3>
+            <p class="description">Went to Romainia on a secret mission for the Army, where I put my feet in the Black Sea</p>
+        </div>
+        <div class="truthLieContainer">
+            <h3 class="truthOrLie">Professional Disc Golfer</h3>
+            <p class="description">After winning a our local Disc Golf tournament, I now compete on a professional level.</p>
+        </div>
+    </div>
+<style>
+    #truthLieTitle{
+        color: lightgreen; text-align: center;
+    }
+    .truthOrLie{
+        color: blue;
+    }
+    .description{
+        color:red;
+    }
+    #truthLieSection {
+        border-width: 3px; border-color: black; border-style: solid; border-radius: 20px;
+        background-color: grey;
+    }
+    .truthLieContainer {
+        border: 1px solid maroon;
+        border-radius: 5px;
+        background-color: lightgray;
+        text-align: center;
+        display: inline-block;
+        width: 32%;
+    }
+
+</style>
+</body>
+</html>
