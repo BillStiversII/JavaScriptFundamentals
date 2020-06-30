@@ -6,7 +6,7 @@ r = r + 1;
 r+=1;
 r++;
 
-// Subgraction assignment opoerator
+// Subgtraction assignment opoerator
 r -= 7;
 r--;
 r = r - 1;
